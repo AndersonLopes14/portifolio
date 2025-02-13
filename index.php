@@ -6,6 +6,32 @@
     <title>Portifólio</title>
 
     <link rel="stylesheet" href="css/styles.css" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body{
+            background-image: url('imagens/logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        p{
+          /*border:1px solid blue;*/
+            border-width: 1px; 
+            border-style: solid;
+            border-color: blue;
+        }
+
+        h1{
+            background: yellow
+        }
+    </style>
 </head>
 <body>
 
