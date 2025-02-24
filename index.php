@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
-    
+
     <link rel="stylesheet" href="css/styles.css" />
 
 </head>
@@ -21,12 +21,12 @@
             </div>
 
             <ul>
-                <li>Home</li>
-                <li>Serviços</li>
-                <li>Produtos</li>
-                <li>Portifólio</li>
-                <li>Sobre</li>
-                <li>Contato</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Portifólio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
 
         </nav>
@@ -36,7 +36,7 @@
             <h1 class="titulo">Entregando serviços de qualidade</h1>
             <h1 class="subtitulo">Soluções em TI</h1>
 
-            <p class="paragrafo">Ave Maria, gratia plena, Dominus tecum: benedicta tu in mulieribus et benedictus fructus ventris tui Iesu. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae.Amen.</p>
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quibusdam ab in! A, nam voluptas!</p>
 
         </div>
 
