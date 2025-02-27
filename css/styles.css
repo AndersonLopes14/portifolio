@@ -3,6 +3,16 @@
     font-family: Verdana, sans-serif;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url('../Fontes/Roboto/static/Roboto-Regular.ttf')
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('../Fontes/Oswald/static/Oswald-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,30 +30,33 @@
 }
 
 #interface header.cabecalho {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-image: url(../imagens/hero-bg.png);
     background-size: cover;
     color: #fafafa;
-} 
+}
 
 #interface .cabecalho .menu {
     display: flex;
     justify-content: space-between;
     width: 70%;
-    margin: 0 auto;  
+    margin: 0 auto;
     padding: 1rem 0;
 }
-#interface .cabecalho .logo {
+
+#interface .cabecalho .menu .logo {
     display: block;
     width: 150px;
 }
 
-#interface .cabecalho .logo img {
+#interface .cabecalho .menu .logo img {
     display: block;
     width: 100%;
 }
+
 #interface .cabecalho .menu ul {
     display: flex;
     align-items: center;
@@ -57,10 +70,43 @@
 
 #interface .cabecalho .menu ul li a {
     display: block;
+    font-family: Oswald;
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: .5rem 1rem;
     text-decoration: none;
 }
 
+#interface .cabecalho .menu ul li a::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: #9941BF;
+    border-radius: 1px;
+    margin-top: .5rem;
+    transition: width .2s ease;
+}
 
+#interface .cabecalho .menu ul li:hover a::after {
+    width: 100%;
+}
+
+#interface .cabecalho .titles {
+    flex-grow: 1; /* REFERE-SE AO FLEX DO CABECALHO */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#interface .cabecalho .titles .container-titles {
+    width: 65%;
+    margin: 0 0 0 auto;
+    border: 1px solid yellow;
+}
+
+#interface .cabecalho .titles .container-titles h1 {
+    font-family: Roboto;
+}
